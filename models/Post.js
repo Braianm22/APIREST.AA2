@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const PostSchema = new Schema({
-    title: {
+    nombre: {
         type: String,
         required: true
     },
-    description: {
+    telefono: {
         type: String,
         required: true
     },
