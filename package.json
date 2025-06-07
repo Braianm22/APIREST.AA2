@@ -1,0 +1,28 @@
+{
+  "name": "evidencia",
+  "version": "1.0.0",
+  "description": "version 1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braianm22/evidenciasmodulo6.git"
+  },
+  "author": "braianm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Braianm22/evidenciasmodulo6/issues"
+  },
+  "homepage": "https://github.com/Braianm22/evidenciasmodulo6#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
